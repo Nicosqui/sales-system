@@ -6,5 +6,8 @@ namespace sales_system
 {
     class Sale
     {
+        public Product Product;
+        public SalesMan SalesMan;
+        public String Comments;
     }
 }
